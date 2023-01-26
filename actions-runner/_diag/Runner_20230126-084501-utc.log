@@ -1,0 +1,218 @@
+[2023-01-26 08:45:01Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-01-26 08:45:01Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:01Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:01Z INFO HostContext] Well known config file 'Credentials': '/Users/zushiryouta/git-practice/actions-runner/.credentials'
+[2023-01-26 08:45:01Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:01Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:01Z INFO HostContext] Well known config file 'Runner': '/Users/zushiryouta/git-practice/actions-runner/.runner'
+[2023-01-26 08:45:02Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2023-01-26 08:45:02Z INFO Listener] RuntimeInformation: Darwin 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101.
+[2023-01-26 08:45:03Z INFO Listener] Version: 2.301.1
+[2023-01-26 08:45:03Z INFO Listener] Commit: f764f5dfa75a74600ef491599be8d4fea33ccdaf
+[2023-01-26 08:45:03Z INFO Listener] Culture: ja-JP
+[2023-01-26 08:45:03Z INFO Listener] UI Culture: ja-JP
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO Listener] Validating directory permissions for: '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO CommandLineParser] Parse
+[2023-01-26 08:45:03Z INFO CommandLineParser] Parsing 5 args
+[2023-01-26 08:45:03Z INFO CommandLineParser] parsing argument
+[2023-01-26 08:45:03Z INFO CommandLineParser] HasArgs: False
+[2023-01-26 08:45:03Z INFO CommandLineParser] Adding Command: configure
+[2023-01-26 08:45:03Z INFO CommandLineParser] parsing argument
+[2023-01-26 08:45:03Z INFO CommandLineParser] HasArgs: True
+[2023-01-26 08:45:03Z INFO CommandLineParser] arg: url
+[2023-01-26 08:45:03Z INFO CommandLineParser] parsing argument
+[2023-01-26 08:45:03Z INFO CommandLineParser] HasArgs: True
+[2023-01-26 08:45:03Z INFO CommandLineParser] Adding option 'url': 'https://github.com/RyotaZushi/git-practice-81'
+[2023-01-26 08:45:03Z INFO CommandLineParser] parsing argument
+[2023-01-26 08:45:03Z INFO CommandLineParser] HasArgs: True
+[2023-01-26 08:45:03Z INFO CommandLineParser] arg: token
+[2023-01-26 08:45:03Z INFO CommandLineParser] parsing argument
+[2023-01-26 08:45:03Z INFO CommandLineParser] HasArgs: True
+[2023-01-26 08:45:03Z INFO CommandLineParser] Adding option 'token': '***'
+[2023-01-26 08:45:03Z INFO Listener] Arguments parsed
+[2023-01-26 08:45:03Z INFO Runner] ExecuteCommand
+[2023-01-26 08:45:03Z INFO ConfigurationStore] currentAssemblyLocation: /Users/zushiryouta/git-practice/actions-runner/bin/Runner.Listener.dll
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO ConfigurationStore] binPath: /Users/zushiryouta/git-practice/actions-runner/bin
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO ConfigurationStore] RootFolder: /Users/zushiryouta/git-practice/actions-runner
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO HostContext] Well known config file 'Runner': '/Users/zushiryouta/git-practice/actions-runner/.runner'
+[2023-01-26 08:45:03Z INFO ConfigurationStore] ConfigFilePath: /Users/zushiryouta/git-practice/actions-runner/.runner
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO HostContext] Well known config file 'Credentials': '/Users/zushiryouta/git-practice/actions-runner/.credentials'
+[2023-01-26 08:45:03Z INFO ConfigurationStore] CredFilePath: /Users/zushiryouta/git-practice/actions-runner/.credentials
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/zushiryouta/git-practice/actions-runner/.credentials_migrated'
+[2023-01-26 08:45:03Z INFO ConfigurationStore] MigratedCredFilePath: /Users/zushiryouta/git-practice/actions-runner/.credentials_migrated
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:03Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:03Z INFO HostContext] Well known config file 'Service': '/Users/zushiryouta/git-practice/actions-runner/.service'
+[2023-01-26 08:45:03Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/zushiryouta/git-practice/actions-runner/.service
+[2023-01-26 08:45:03Z INFO CommandSettings] Flag 'help': 'False'
+[2023-01-26 08:45:03Z INFO CommandSettings] Flag 'version': 'False'
+[2023-01-26 08:45:03Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-01-26 08:45:03Z INFO CommandSettings] Flag 'check': 'False'
+[2023-01-26 08:45:04Z INFO CommandSettings] Command 'configure': 'True'
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE: |                       
+[2023-01-26 08:45:04Z INFO Terminal] WRITE: Self-hosted runner registration
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE:                         |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-01-26 08:45:04Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-01-26 08:45:04Z INFO ConfigurationManager] ConfigureAsync
+[2023-01-26 08:45:04Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2023-01-26 08:45:04Z INFO ConfigurationStore] IsConfigured()
+[2023-01-26 08:45:04Z INFO ConfigurationStore] IsConfigured: False
+[2023-01-26 08:45:04Z INFO ConfigurationManager] Is configured: False
+[2023-01-26 08:45:04Z INFO CommandSettings] Arg 'url': 'https://github.com/RyotaZushi/git-practice-81'
+[2023-01-26 08:45:04Z INFO CommandSettings] Remove url from Arg dictionary.
+[2023-01-26 08:45:04Z INFO CommandSettings] Arg 'token': '***'
+[2023-01-26 08:45:04Z INFO CommandSettings] Remove token from Arg dictionary.
+[2023-01-26 08:45:11Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (F23D:6357:2C812E:3000DE:63D23D99)
+[2023-01-26 08:45:11Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2023-01-26 08:45:11Z INFO RunnerServer] EstablishVssConnection
+[2023-01-26 08:45:11Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-01-26 08:45:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-01-26 08:45:12Z INFO RunnerServer] EstablishVssConnection
+[2023-01-26 08:45:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-01-26 08:45:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-01-26 08:45:12Z INFO RunnerServer] EstablishVssConnection
+[2023-01-26 08:45:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-01-26 08:45:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-01-26 08:45:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-01-26 08:45:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-01-26 08:45:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-01-26 08:45:15Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:15Z INFO ConfigurationManager] Test Connection complete.
+[2023-01-26 08:45:15Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:15Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:15Z INFO HostContext] Well known config file 'RSACredentials': '/Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams'
+[2023-01-26 08:45:15Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2023-01-26 08:45:15Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams
+[2023-01-26 08:45:15Z INFO RSAFileKeyManager] Which: 'chmod'
+[2023-01-26 08:45:15Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2023-01-26 08:45:16Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:16Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper] Starting process:
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Working directory: '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper] Process started with process id 51860, waiting for process exit.
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-01-26 08:45:16Z INFO ProcessInvokerWrapper] Finished process 51860 with exit code 0, and elapsed time 00:00:00.2982271.
+[2023-01-26 08:45:16Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams
+[2023-01-26 08:45:17Z INFO CommandSettings] Arg 'runnergroup': ''
+[2023-01-26 08:45:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-01-26 08:45:17Z INFO PromptManager] ReadValue
+[2023-01-26 08:45:17Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2023-01-26 08:45:17Z INFO Terminal] WRITE: [press Enter for Default] 
+[2023-01-26 08:45:17Z INFO Terminal] READ LINE
+[2023-01-26 08:45:37Z INFO Terminal] Read value: ''
+[2023-01-26 08:45:37Z INFO PromptManager] Falling back to the default: 'Default'
+[2023-01-26 08:45:37Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:37Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2023-01-26 08:45:37Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2023-01-26 08:45:37Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2023-01-26 08:45:37Z INFO CommandSettings] Arg 'name': ''
+[2023-01-26 08:45:37Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-01-26 08:45:37Z INFO PromptManager] ReadValue
+[2023-01-26 08:45:37Z INFO Terminal] WRITE: Enter the name of runner: 
+[2023-01-26 08:45:37Z INFO Terminal] WRITE: [press Enter for PS2-10214654-01] 
+[2023-01-26 08:45:37Z INFO Terminal] READ LINE
+[2023-01-26 08:45:40Z INFO Terminal] Read value: ''
+[2023-01-26 08:45:40Z INFO PromptManager] Falling back to the default: 'PS2-10214654-01'
+[2023-01-26 08:45:40Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:40Z INFO CommandSettings] Arg 'labels': ''
+[2023-01-26 08:45:40Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-01-26 08:45:40Z INFO PromptManager] ReadValue
+[2023-01-26 08:45:40Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2023-01-26 08:45:40Z INFO Terminal] WRITE: [press Enter to skip] 
+[2023-01-26 08:45:40Z INFO Terminal] READ LINE
+[2023-01-26 08:45:45Z INFO Terminal] Read value: ''
+[2023-01-26 08:45:45Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:45Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2023-01-26 08:45:46Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2023-01-26 08:45:46Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2023-01-26 08:45:46Z INFO ConfigurationStore] Saving OAuth credential @ /Users/zushiryouta/git-practice/actions-runner/.credentials
+[2023-01-26 08:45:46Z INFO ConfigurationStore] Credentials Saved.
+[2023-01-26 08:45:46Z INFO ConfigurationStore] HasCredentials()
+[2023-01-26 08:45:46Z INFO ConfigurationStore] stored True
+[2023-01-26 08:45:46Z INFO CredentialManager] GetCredentialProvider
+[2023-01-26 08:45:46Z INFO CredentialManager] Creating type OAuth
+[2023-01-26 08:45:46Z INFO CredentialManager] Creating credential type: OAuth
+[2023-01-26 08:45:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams
+[2023-01-26 08:45:46Z INFO RunnerServer] EstablishVssConnection
+[2023-01-26 08:45:46Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-01-26 08:45:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-01-26 08:45:46Z INFO RunnerServer] EstablishVssConnection
+[2023-01-26 08:45:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-01-26 08:45:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-01-26 08:45:46Z INFO RunnerServer] EstablishVssConnection
+[2023-01-26 08:45:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-01-26 08:45:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-01-26 08:45:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-01-26 08:45:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-01-26 08:45:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-01-26 08:45:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams
+[2023-01-26 08:45:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/zushiryouta/git-practice/actions-runner/.credentials_rsaparams
+[2023-01-26 08:45:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-01-26 08:45:49Z INFO CommandSettings] Arg 'work': ''
+[2023-01-26 08:45:49Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-01-26 08:45:49Z INFO PromptManager] ReadValue
+[2023-01-26 08:45:49Z INFO Terminal] WRITE: Enter name of work folder: 
+[2023-01-26 08:45:49Z INFO Terminal] WRITE: [press Enter for _work] 
+[2023-01-26 08:45:49Z INFO Terminal] READ LINE
+[2023-01-26 08:45:51Z INFO Terminal] Read value: ''
+[2023-01-26 08:45:51Z INFO PromptManager] Falling back to the default: '_work'
+[2023-01-26 08:45:51Z INFO ConfigurationStore] Saving runner settings.
+[2023-01-26 08:45:51Z INFO ConfigurationStore] Settings Saved.
+[2023-01-26 08:45:51Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:51Z INFO Terminal] WRITE LINE: 
+[2023-01-26 08:45:51Z INFO OsxServiceControlManager] Service name 'actions.runner.RyotaZushi-git-practice-81.PS2-10214654-01' display name 'GitHub Actions Runner (RyotaZushi-git-practice-81.PS2-10214654-01)' will be used for service configuration.
+[2023-01-26 08:45:51Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:51Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:51Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:51Z INFO HostContext] Well known directory 'Bin': '/Users/zushiryouta/git-practice/actions-runner/bin'
+[2023-01-26 08:45:51Z INFO HostContext] Well known directory 'Root': '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:51Z INFO UnixUtil] Which: 'chmod'
+[2023-01-26 08:45:51Z INFO UnixUtil] Location: '/bin/chmod'
+[2023-01-26 08:45:51Z INFO UnixUtil] Running /bin/chmod 755 "/Users/zushiryouta/git-practice/actions-runner/svc.sh"
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper] Starting process:
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/zushiryouta/git-practice/actions-runner/svc.sh"'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Working directory: '/Users/zushiryouta/git-practice/actions-runner'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-01-26 08:45:51Z INFO ProcessInvokerWrapper] Process started with process id 51996, waiting for process exit.
+[2023-01-26 08:45:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-01-26 08:45:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-01-26 08:45:52Z INFO ProcessInvokerWrapper] Finished process 51996 with exit code 0, and elapsed time 00:00:00.0306461.
+[2023-01-26 08:45:52Z INFO Listener] Runner execution has finished with return code 0
