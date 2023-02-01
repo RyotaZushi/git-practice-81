@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "PS2-10214654-01",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/fwCqUFaP4ophKJmVm3m4hXkA8YLw6HLBJtTMVNhKcYkK1cnHYt",
+  "gitHubUrl": "https://github.com/RyotaZushi/git-practice-81",
+  "workFolder": "_work"
+}
